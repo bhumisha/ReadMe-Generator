@@ -1,23 +1,44 @@
-
-
-const randerContribute = contributeOptions => {
-  console.log(contributeOptions);
-  
-  if(contributeOptions.length > 0){
-    let contri = "";
-    for(var i=0;i<contributeOptions.length;i++){
-      contri += `* ${contributeOptions[i]}\n`
-    }
-    return contri
-     //return contributeOptions.map(element => `* ${element}\t`)
+// TODO: Create a function that returns a license badge based on which license is passed in
+// If there is no license, return an empty string
+const renderLicenseBadge = license => {
+  if(!license){
+    return "";
   }
-  
+  else{
+    const selectedLicenseList = licenseList.filter(item => item.name === license);
+    return selectedLicenseList[0].badge;
+  }
+   
 }
+
+// TODO: Create a function that returns the license link
+// If there is no license, return an empty string
+const renderLicenseLink = license => {
+  const selectedLicenseList = licenseList.filter(item => item.name === license)
+  return selectedLicenseList[0];
+}
+
+// TODO: Create a function that returns the license section of README
+// If there is no license, return an empty string
+const renderLicenseSection = license => {
+
+    if (!license) {
+      return 'No License takan yet.';
+    }
+    const selectedLicense = renderLicenseLink(license);
+    return `
+This repository is licensed under the [${license}](${selectedLicense.link}) license.
+    ${selectedLicense.noticeText}
+    `;
+
+}
+
+
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
   # ${data.title} 
- 
+  ${renderLicenseBadge(data.license)}
   
   
   ## Description
@@ -45,10 +66,10 @@ function generateMarkdown(data) {
   ${data.usage}
   
   ## License 
-  
+  ${renderLicenseSection(data.license)}
   
   ## contribution
-  ${randerContribute(data.contribute)}
+  
   
   ## Tests
   To run the tests,run the following command:
