@@ -5,34 +5,59 @@ const licenseList = [
     link: "https://opensource.org/licenses/MIT",
     noticeText:'MIT License ' +
     'Copyright (c)  2015 - present Microsoft Corporation\n\n'+
-    'Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\n' +
-    'The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\n' +
-    'THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.'
+    '  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\n' +
+    '  The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\n' +
+    '  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.'
   },
   {
     name:"GNU GPLv3",
     badge: "[![License: GPLv3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)",
-    link: "https://www.gnu.org/licenses/gpl-3.0"
+    link: "https://www.gnu.org/licenses/gpl-3.0",
+    noticeText:'GNU GPLv3 ' +
+    'Copyright (c)  2015 - presentGNU GPLv3\n\n'+
+    '  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\n' +
+    '  The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\n' +
+    '  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.'
   },
   {
     name:"Mozilla Public License 2.0",
     badge: "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)",
-    link: "https://opensource.org/licenses/MPL-2.0"
+    link: "https://opensource.org/licenses/MPL-2.0",
+    noticeText:'Mozilla Public License ' +
+    'Copyright (c)  2015 - present Mozilla Public License\n\n'+
+    '  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\n' +
+    '  The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\n' +
+    '  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.'
   },
   {
     name:"Apache 2.0",
     badge: "[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
-    link: "https://opensource.org/licenses/Apache-2.0"
+    link: "https://opensource.org/licenses/Apache-2.0",
+    noticeText:'Apache 2.0 License ' +
+    'Copyright (c)  2015 - present Apache 2.0 Corporation\n\n'+
+    '  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\n' +
+    '  The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\n' +
+    '  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.'
   },
   {
     name:"BSD 3-Clause",
     badge: "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)",
-    link: "https://opensource.org/licenses/BSD-3-Clause"
+    link: "https://opensource.org/licenses/BSD-3-Clause",
+    noticeText:'BSD 3-Clause License ' +
+    'Copyright (c)  2015 - present Microsoft Corporation\n\n'+
+    '  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\n' +
+    '  The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\n' +
+    '  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.'
   },
   {
     name:"Unlicense",
     badge: "[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)",
-    link: "http://unlicense.org"
+    link: "http://unlicense.org",
+    noticeText:'Unlicense License ' +
+    ' Copyright (c)  2015 - present Microsoft Corporation\n\n'+
+    '  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\n' +
+    '  The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\n' +
+    '  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.'
   }
 
 ]
@@ -66,11 +91,12 @@ const renderLicenseSection = license => {
     const selectedLicense = renderLicenseLink(license);
     return `
 This repository is licensed under the [${license}](${selectedLicense.link}) license.
+
     ${selectedLicense.noticeText}
     `;
 
 }
-
+//TODO : It is used to show selected option for contribute 
 const randerContribute = contributeOptions => {
   console.log(contributeOptions);
   
@@ -80,19 +106,21 @@ const randerContribute = contributeOptions => {
       contri += `* ${contributeOptions[i]}\n`
     }
     return contri
-     //return contributeOptions.map(element => `* ${element}\t`)
   }
 
 }
 // TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
+module.exports = readMeTemplate => {
+  // destructure page data by section
+  console.log(readMeTemplate);
+  const { username,email,project } = readMeTemplate;
   return `
-  # ${data.title} 
-  ${renderLicenseBadge(data.license)}
+  # ${project.title} 
+  ${renderLicenseBadge(project.license)}
   
   
   ## Description
-    ${data.projectDesc}
+    ${project.projectDesc}
   
   ## Table of Contents
   * [Installation](#installation)
@@ -111,34 +139,36 @@ function generateMarkdown(data) {
   ## Installation
   To install following dependencies run the following command:
 
-    ${data.installCommand}
+    ${project.installCommand}
 
   ## Usage
-  ${data.usage}
+  ${project.usage}
   
   ## License 
-  ${renderLicenseSection(data.license)}
+  ${renderLicenseSection(project.license)}
   
   ## Contributing
-  ${randerContribute(data.contribute)}
+  ${randerContribute(project.contribute)}
 
 If you are interested in fixing issues and contributing directly to the code base, please see the document How to Contribute.
   
   ## Tests
   To run the tests,run the following command:
     
-    ${data.testCommand}
+    ${project.testCommand}
   
-  ## questions
-  
-  If you have any additional questions about the repo, open an issue or contact me directly at ${data.email}.
-  You can fine more of my work at [${data.username}](https://github.com/${data.username})
-  
-  
+  ## Images 
+  The following screen demonstrates the application functionality
+  ![Project Execution](src/images/terminalExecution.png)
 
+  ## Questions
+  
+  If you have any additional questions about the repo, open an issue or contact me directly at ${email}.
+  You can fine more of my work at [${username}](https://github.com/${username})
  
+
 `;
 };
 
 
-module.exports = generateMarkdown;
+

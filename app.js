@@ -40,7 +40,7 @@ const promptUser = () => {
   };
 
   //Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-  const promptProjectDetail = () => {
+  const promptProjectDetail = portfolioDetails => {
     return inquirer
     .prompt([
       /* Pass your questions in here */
@@ -103,21 +103,28 @@ const promptUser = () => {
           name:"contribute"
         }
       
-    ]);
-  }
-promptUser()
-    .then(promptProjectDetail)
-    .then((data)=> {
-      let fileName = "test.md";
-      const readMeData = generateMarkdown(data);
-
-      return writeToFile(fileName, readMeData);
+    ]).then(data => {
+      portfolioDetails.project = data
+       return portfolioDetails;
     });
+  }
+
   
 
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+  promptUser()
+  .then(promptProjectDetail)
+  .then((data)=> {
+    let fileName = "sampleREADME.md";
+    console.log(data);
+    const readMeData = generateMarkdown(data);
+
+    return writeToFile(fileName, readMeData);
+  });
+
+}
 
 // Function call to initialize app
 init();
