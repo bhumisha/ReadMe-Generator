@@ -57,10 +57,12 @@ If you are interested in fixing issues and contributing directly to the code bas
   ## Images 
   The following screen demonstrates the application functionality
 
-  Terminal Execution
+  **Terminal Execution**
+  
   ![Terminal Execution](src/images/terminalExecution.png)
 
-  SampleReadME.md
+  **SampleReadME.md**
+  
   ![ReadMe Execution](src/images/sampleReadMe.png)
 
   ## Questions
