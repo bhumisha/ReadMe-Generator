@@ -11,13 +11,26 @@ const promptUser = () => {
     return inquirer.prompt([
       {
         type: 'input',
-        name: 'github',
+        name: 'username',
         message: 'Enter your GitHub Username (Required)',
         validate: username => {
             if (username) {
               return true;
             } else {
               console.log('Please enter your GitHub Username!');
+              return false;
+            }
+          }
+      },
+      {
+        type: 'input',
+        name: 'email',
+        message: 'Enter your Email Address (Required)',
+        validate: email => {
+            if (email) {
+              return true;
+            } else {
+              console.log('Please enter your Email Address!');
               return false;
             }
           }
@@ -64,7 +77,14 @@ const promptUser = () => {
         {
             type:"input",
             message :"What command should be run to install dependencies?",
-            name:"dependencies"
+            name:"installCommand",
+            validate: installCommand => {
+              if (installCommand) return true;
+              else {
+                console.log('You need to specify command to install dependencies!');
+                return false;
+              }
+            }
         },
         {
           type:"input",
