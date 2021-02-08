@@ -1,10 +1,10 @@
 
   # ReadMe-Generator 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
   
   
   ## Description
-    This is project is all about to generate READMe file using node.js. It executes only thru terminal.
+    This is project is all about to generate READMe file using node.js. It run only thru terminal. To developed this project, I have used file and inquirer node modules. User has to provide Github details and also Project related informations. This project is deployed in Github. User can go thru files and clone the project.
   
   ## Table of Contents
   * [Installation](#installation)
@@ -26,13 +26,13 @@
     npm install
 
   ## Usage
-  All the dependencies and usage of it.
+  usre should know about its all dependencies and its usage.
   
   ## License 
   
-This repository is licensed under the [MIT](https://opensource.org/licenses/MIT) license.
+This repository is licensed under the [Apache 2.0](https://opensource.org/licenses/Apache-2.0) license.
 
-    MIT License Copyright (c)  2015 - present Microsoft Corporation
+    Apache 2.0 License Copyright (c)  2015 - present Apache 2.0 Corporation
 
     Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -56,13 +56,14 @@ If you are interested in fixing issues and contributing directly to the code bas
   
   ## Images 
   The following screen demonstrates the application functionality
-  Project Execution in terminal
-  ![Project Execution](src/images/terminalExecution.png)
 
-  Result in Github.
-  ![Github Execution](src/images/sampleReadMe.png)
+  Terminal Execution
+  ![Terminal Execution](src/images/terminalExecution.png)
 
-  ## questions
+  SampleReadME.md
+  ![ReadMe Execution](src/images/sampleReadMe.png)
+
+  ## Questions
   
   If you have any additional questions about the repo, open an issue or contact me directly at bhumishadave@gmail.com.
   You can fine more of my work at [bhumisha](https://github.com/bhumisha)
