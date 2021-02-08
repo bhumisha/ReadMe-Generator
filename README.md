@@ -16,6 +16,10 @@ To check the project result , you need to clone and run below commands.
 If you have not added node than please install node and than npm install.
 than run node app.js will prompt user for information and its generate ReadMe for project.
 
-Terminal Screen.
+**Terminal Screen.**
 
-Sample ReadMe.md
+![](src/images/terminalExecution.png)
+
+**Sample ReadMe.md**
+
+![](src/images/sampleReadMe.png)
